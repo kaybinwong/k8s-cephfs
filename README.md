@@ -1,8 +1,7 @@
-# k8s-cephfs
 cephfs provisioner, not rbd.
 
 # 1. 准备
-确保已经安装ceph集群以及k8s集群。
+确保已经安装ceph集群(http://www.mamicode.com/info-detail-2355156.html)以及k8s集群。
 
 # 2. ceph授权
 
