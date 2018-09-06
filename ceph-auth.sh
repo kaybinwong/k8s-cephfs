@@ -1,0 +1,1 @@
+ceph auth caps client.k8s mon 'allow rwx' osd 'allow rw pool=k8s' mds 'allow rwp' && ceph auth get-key client.k8s > /tmp/secret
